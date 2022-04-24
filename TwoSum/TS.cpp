@@ -22,5 +22,6 @@ int main() {
     std::cout << "Program Start\n";
     // instantiate your class here
 
+    std::cout << "Program Won't Do Anything\n";
     return 0;
 }
