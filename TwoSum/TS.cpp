@@ -23,5 +23,6 @@ int main() {
     // instantiate your class here
 
     std::cout << "Program Won't Do Anything\n";
+    std::cout << "End of programm\n";
     return 0;
 }
