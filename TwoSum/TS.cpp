@@ -1,7 +1,10 @@
+# include <vector>
+# include <iostream>
+
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> out;
+    std::vector<int> twoSum(std::vector<int>& nums, int target) {
+        std::vector<int> out;
         for(int i=0;i<nums.size();++i){
             for(int j=1+i;j<nums.size();++j){
                if(nums[i]+nums[j]==target){
@@ -14,3 +17,10 @@ public:
         return out;
     }
 };
+
+int main() {
+    std::cout << "Program Start\n";
+    // instantiate your class here
+
+    return 0;
+}
