@@ -24,5 +24,6 @@ int main() {
 
     std::cout << "Program Won't Do Anything\n";
     std::cout << "End of programm\n";
+    std::cout << "Something new\n";
     return 0;
 }
